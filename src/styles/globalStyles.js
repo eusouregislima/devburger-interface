@@ -10,6 +10,7 @@ const globalStyles = createGlobalStyle`
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-decoration: none
 }
 
 button, a {
