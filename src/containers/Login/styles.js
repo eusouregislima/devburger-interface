@@ -1,7 +1,9 @@
-import styled from 'styled-components';
+/* eslint-disable prettier/prettier */
+import { Link as ReactLink } from "react-router-dom";
+import styled from "styled-components";
 
-import BackgroundLogin from '../../assets/background-login.svg';
-import Background from '../../assets/background.svg';
+import BackgroundLogin from "../../assets/background-login.svg";
+import Background from "../../assets/background.svg";
 
 export const Container = styled.div`
   display: flex;
@@ -101,4 +103,9 @@ export const Text = styled.p`
     color: #fff;
     text-decoration: underline;
   }
+`;
+
+export const Link = styled(ReactLink)`
+  text-decoration: none;
+  color: #fff;
 `;
